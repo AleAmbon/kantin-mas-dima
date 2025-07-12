@@ -1,0 +1,540 @@
+<html class="scroll-smooth" lang="id">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   Kanting Raden Mas Dimas
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+      font-family: 'Poppins', sans-serif;
+    }
+  </style>
+ </head>
+ <body class="bg-gradient-to-b from-yellow-100 via-yellow-50 to-yellow-100 min-h-screen flex flex-col">
+  <!-- Header / Navbar -->
+  <header class="bg-yellow-600 shadow-lg sticky top-0 z-50">
+   <div class="container mx-auto flex items-center justify-between p-4">
+    <div class="flex items-center space-x-3">
+     <img alt="Logo Kanting Raden Mas Dimas berupa ilustrasi poci teh tradisional berwarna coklat dengan latar belakang kuning keemasan" class="w-14 h-14 rounded-full shadow-lg" height="80" src="https://storage.googleapis.com/a1aa/image/b7898803-966f-4744-409e-6cdb7143b0eb.jpg" width="80"/>
+     <h1 class="text-3xl font-extrabold text-white drop-shadow-lg tracking-wide select-none">
+      Kanting Raden Mas Dimas
+     </h1>
+    </div>
+    <nav class="hidden md:flex space-x-10 font-semibold text-yellow-200 tracking-wide">
+     <a class="hover:text-white transition duration-300" href="#menu-makanan">
+      Makanan
+     </a>
+     <a class="hover:text-white transition duration-300" href="#menu-minuman">
+      Minuman
+     </a>
+     <a class="hover:text-white transition duration-300" href="#pembayaran">
+      Pembayaran
+     </a>
+     <a class="hover:text-white transition duration-300" href="#komentar">
+      Komentar
+     </a>
+    </nav>
+    <button aria-label="Toggle menu" class="md:hidden text-yellow-200 focus:outline-none" id="btn-menu">
+     <i class="fas fa-bars fa-lg">
+     </i>
+    </button>
+   </div>
+   <nav class="hidden md:hidden bg-yellow-50 border-t border-yellow-300" id="mobile-menu">
+    <a class="block px-6 py-3 border-b border-yellow-300 font-semibold text-yellow-700 hover:bg-yellow-100 transition" href="#menu-makanan">
+     Makanan
+    </a>
+    <a class="block px-6 py-3 border-b border-yellow-300 font-semibold text-yellow-700 hover:bg-yellow-100 transition" href="#menu-minuman">
+     Minuman
+    </a>
+    <a class="block px-6 py-3 border-b border-yellow-300 font-semibold text-yellow-700 hover:bg-yellow-100 transition" href="#pembayaran">
+     Pembayaran
+    </a>
+    <a class="block px-6 py-3 font-semibold text-yellow-700 hover:bg-yellow-100 transition" href="#komentar">
+     Komentar
+    </a>
+   </nav>
+  </header>
+  <!-- Hero Section with Plafon (Ceiling) Image and Overlay -->
+  <section class="relative bg-yellow-50 shadow-lg">
+   <img alt="Plafon kayu tradisional dengan ornamen ukiran khas Jawa berwarna coklat hangat di Kanting Raden Mas Dimas" class="w-full object-cover h-64 md:h-80" height="320" loading="lazy" src="https://storage.googleapis.com/a1aa/image/0ddb2182-dd64-4dd2-4d25-0dd46e1840e9.jpg" width="1200"/>
+   <div class="absolute inset-0 bg-gradient-to-b from-yellow-900/70 via-yellow-900/50 to-yellow-900/70 flex flex-col justify-center items-center px-6 text-center">
+    <h2 class="text-white text-4xl md:text-6xl font-extrabold drop-shadow-lg mb-3 tracking-wider">
+     Selamat Datang di Kanting Raden Mas Dimas
+    </h2>
+    <p class="text-yellow-200 max-w-3xl text-lg md:text-xl font-medium drop-shadow-md">
+     Nikmati cita rasa tradisional dengan suasana hangat dan nyaman. Makanan dan minuman pilihan terbaik untuk Anda dan keluarga.
+    </p>
+    <a class="mt-6 inline-block bg-yellow-400 hover:bg-yellow-500 text-yellow-900 font-bold py-3 px-8 rounded-full shadow-lg transition duration-300" href="#menu-makanan">
+     Lihat Menu
+    </a>
+   </div>
+  </section>
+  <!-- Main Content -->
+  <main class="container mx-auto px-4 py-10 flex-grow">
+   <!-- Menu Makanan -->
+   <section class="mb-16" id="menu-makanan">
+    <h3 class="text-yellow-900 text-4xl font-extrabold mb-8 border-b-4 border-yellow-500 inline-block tracking-wide drop-shadow-md">
+     Menu Makanan
+    </h3>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
+     <article class="bg-white rounded-3xl shadow-2xl overflow-hidden transform hover:scale-105 transition duration-300 cursor-pointer group">
+      <img alt="Nasi goreng spesial dengan telur mata sapi, irisan mentimun, dan kerupuk di piring putih dengan latar belakang kayu rustic" class="w-full h-56 object-cover group-hover:brightness-90" height="224" loading="lazy" src="https://storage.googleapis.com/a1aa/image/66508ece-c75f-431c-9871-d8f521710099.jpg" width="400"/>
+      <div class="p-6">
+       <h4 class="text-2xl font-bold text-yellow-900 mb-3 tracking-wide">
+        Nasi Goreng Spesial
+       </h4>
+       <p class="text-gray-700 mb-4 leading-relaxed">
+        Nasi goreng dengan bumbu rahasia, telur mata sapi, dan kerupuk renyah yang menggugah selera.
+       </p>
+       <p class="font-extrabold text-yellow-600 text-xl">
+        Rp25.000
+       </p>
+      </div>
+     </article>
+     <article class="bg-white rounded-3xl shadow-2xl overflow-hidden transform hover:scale-105 transition duration-300 cursor-pointer group">
+      <img alt="Ayam goreng kremes berwarna keemasan dengan kremesan renyah di piring putih dengan latar belakang rustic" class="w-full h-56 object-cover group-hover:brightness-90" height="224" loading="lazy" src="https://storage.googleapis.com/a1aa/image/f07c655d-d8ad-42b6-3e21-2a63b11e249c.jpg" width="400"/>
+      <div class="p-6">
+       <h4 class="text-2xl font-bold text-yellow-900 mb-3 tracking-wide">
+        Ayam Goreng Kremes
+       </h4>
+       <p class="text-gray-700 mb-4 leading-relaxed">
+        Ayam goreng dengan kremesan renyah khas Kanting Raden Mas Dimas yang menggoda.
+       </p>
+       <p class="font-extrabold text-yellow-600 text-xl">
+        Rp30.000
+       </p>
+      </div>
+     </article>
+     <article class="bg-white rounded-3xl shadow-2xl overflow-hidden transform hover:scale-105 transition duration-300 cursor-pointer group">
+      <img alt="Bakwan jagung goreng berwarna keemasan dengan jagung manis dan daun bawang di piring putih dengan latar belakang rustic" class="w-full h-56 object-cover group-hover:brightness-90" height="224" loading="lazy" src="https://storage.googleapis.com/a1aa/image/8328675c-1245-4efa-308c-97899fdcb820.jpg" width="400"/>
+      <div class="p-6">
+       <h4 class="text-2xl font-bold text-yellow-900 mb-3 tracking-wide">
+        Bakwan Jagung
+       </h4>
+       <p class="text-gray-700 mb-4 leading-relaxed">
+        Gorengan bakwan jagung manis dengan tekstur renyah dan gurih yang pas untuk cemilan.
+       </p>
+       <p class="font-extrabold text-yellow-600 text-xl">
+        Rp15.000
+       </p>
+      </div>
+     </article>
+     <article class="bg-white rounded-3xl shadow-2xl overflow-hidden transform hover:scale-105 transition duration-300 cursor-pointer group">
+      <img alt="Tempe goreng kriuk berwarna coklat keemasan dengan tekstur renyah di piring putih dengan latar belakang rustic" class="w-full h-56 object-cover group-hover:brightness-90" height="224" loading="lazy" src="https://storage.googleapis.com/a1aa/image/84658f2f-03e8-4dd6-4891-be1019175b51.jpg" width="400"/>
+      <div class="p-6">
+       <h4 class="text-2xl font-bold text-yellow-900 mb-3 tracking-wide">
+        Tempe Goreng Kriuk
+       </h4>
+       <p class="text-gray-700 mb-4 leading-relaxed">
+        Tempe goreng dengan balutan tepung kriuk yang gurih dan renyah, favorit semua usia.
+       </p>
+       <p class="font-extrabold text-yellow-600 text-xl">
+        Rp12.000
+       </p>
+      </div>
+     </article>
+     <article class="bg-white rounded-3xl shadow-2xl overflow-hidden transform hover:scale-105 transition duration-300 cursor-pointer group">
+      <img alt="Sayur asem tradisional dengan kuah bening, jagung, melinjo, dan kacang panjang dalam mangkuk putih dengan latar belakang rustic" class="w-full h-56 object-cover group-hover:brightness-90" height="224" loading="lazy" src="https://storage.googleapis.com/a1aa/image/79697b1f-095e-46df-245b-86d7a9601090.jpg" width="400"/>
+      <div class="p-6">
+       <h4 class="text-2xl font-bold text-yellow-900 mb-3 tracking-wide">
+        Sayur Asem
+       </h4>
+       <p class="text-gray-700 mb-4 leading-relaxed">
+        Sayur asem segar dengan rasa asam alami dan sayuran lengkap, menyehatkan dan menyegarkan.
+       </p>
+       <p class="font-extrabold text-yellow-600 text-xl">
+        Rp18.000
+       </p>
+      </div>
+     </article>
+     <article class="bg-white rounded-3xl shadow-2xl overflow-hidden transform hover:scale-105 transition duration-300 cursor-pointer group">
+      <img alt="Gado-gado dengan sayuran rebus, tahu, tempe, telur rebus, dan bumbu kacang di piring putih dengan latar belakang rustic" class="w-full h-56 object-cover group-hover:brightness-90" height="224" loading="lazy" src="https://storage.googleapis.com/a1aa/image/b3b87d81-e875-4bfe-566e-3cc5fc44bb07.jpg" width="400"/>
+      <div class="p-6">
+       <h4 class="text-2xl font-bold text-yellow-900 mb-3 tracking-wide">
+        Gado-Gado
+       </h4>
+       <p class="text-gray-700 mb-4 leading-relaxed">
+        Salad sayur dengan bumbu kacang khas Indonesia yang lezat dan menggugah selera.
+       </p>
+       <p class="font-extrabold text-yellow-600 text-xl">
+        Rp22.000
+       </p>
+      </div>
+     </article>
+    </div>
+   </section>
+   <!-- Menu Minuman -->
+   <section class="mb-16" id="menu-minuman">
+    <h3 class="text-yellow-900 text-4xl font-extrabold mb-8 border-b-4 border-yellow-500 inline-block tracking-wide drop-shadow-md">
+     Menu Minuman
+    </h3>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
+     <article class="bg-white rounded-3xl shadow-2xl overflow-hidden transform hover:scale-105 transition duration-300 cursor-pointer group">
+      <img alt="Cangkir teh poci hangat berwarna coklat dengan uap mengepul di atas meja kayu rustic" class="w-full h-56 object-cover group-hover:brightness-90" height="224" loading="lazy" src="https://storage.googleapis.com/a1aa/image/aa1e4005-5fa8-4eb0-5e7b-8fa76fdfbeae.jpg" width="400"/>
+      <div class="p-6">
+       <h4 class="text-2xl font-bold text-yellow-900 mb-3 tracking-wide">
+        Teh Poci Hangat
+       </h4>
+       <p class="text-gray-700 mb-4 leading-relaxed">
+        Teh poci tradisional dengan aroma khas dan rasa yang kuat, sempurna untuk menghangatkan hari Anda.
+       </p>
+       <p class="font-extrabold text-yellow-600 text-xl">
+        Rp10.000
+       </p>
+      </div>
+     </article>
+     <article class="bg-white rounded-3xl shadow-2xl overflow-hidden transform hover:scale-105 transition duration-300 cursor-pointer group">
+      <img alt="Segelas es teh manis dengan es batu dan irisan lemon di gelas kaca transparan di atas meja kayu rustic" class="w-full h-56 object-cover group-hover:brightness-90" height="224" loading="lazy" src="https://storage.googleapis.com/a1aa/image/770284c4-43dc-4a4d-9c89-4dd260b4218f.jpg" width="400"/>
+      <div class="p-6">
+       <h4 class="text-2xl font-bold text-yellow-900 mb-3 tracking-wide">
+        Es Teh Manis
+       </h4>
+       <p class="text-gray-700 mb-4 leading-relaxed">
+        Teh manis dingin segar dengan es batu dan lemon, menyegarkan dahaga Anda.
+       </p>
+       <p class="font-extrabold text-yellow-600 text-xl">
+        Rp8.000
+       </p>
+      </div>
+     </article>
+     <article class="bg-white rounded-3xl shadow-2xl overflow-hidden transform hover:scale-105 transition duration-300 cursor-pointer group">
+      <img alt="Cangkir kopi hitam panas dengan uap mengepul di atas piring putih rustic" class="w-full h-56 object-cover group-hover:brightness-90" height="224" loading="lazy" src="https://storage.googleapis.com/a1aa/image/db44d2b6-602e-4710-0a58-291cf4b42035.jpg" width="400"/>
+      <div class="p-6">
+       <h4 class="text-2xl font-bold text-yellow-900 mb-3 tracking-wide">
+        Kopi Hitam
+       </h4>
+       <p class="text-gray-700 mb-4 leading-relaxed">
+        Kopi hitam pekat dengan aroma yang menggoda, pilihan tepat untuk pecinta kopi sejati.
+       </p>
+       <p class="font-extrabold text-yellow-600 text-xl">
+        Rp12.000
+       </p>
+      </div>
+     </article>
+     <article class="bg-white rounded-3xl shadow-2xl overflow-hidden transform hover:scale-105 transition duration-300 cursor-pointer group">
+      <img alt="Segelas jus jeruk segar berwarna oranye dengan es batu dan irisan jeruk di gelas kaca rustic" class="w-full h-56 object-cover group-hover:brightness-90" height="224" loading="lazy" src="https://storage.googleapis.com/a1aa/image/266ad8bb-e2be-425c-d5d3-bf4ed3eef16c.jpg" width="400"/>
+      <div class="p-6">
+       <h4 class="text-2xl font-bold text-yellow-900 mb-3 tracking-wide">
+        Jus Jeruk Segar
+       </h4>
+       <p class="text-gray-700 mb-4 leading-relaxed">
+        Jus jeruk asli segar dengan rasa manis alami, penuh vitamin C.
+       </p>
+       <p class="font-extrabold text-yellow-600 text-xl">
+        Rp15.000
+       </p>
+      </div>
+     </article>
+     <article class="bg-white rounded-3xl shadow-2xl overflow-hidden transform hover:scale-105 transition duration-300 cursor-pointer group">
+      <img alt="Segelas es cincau manis dengan potongan cincau hitam dan es batu di gelas kaca rustic" class="w-full h-56 object-cover group-hover:brightness-90" height="224" loading="lazy" src="https://storage.googleapis.com/a1aa/image/f15bdf68-d2e5-4002-5306-d516ee8fad1c.jpg" width="400"/>
+      <div class="p-6">
+       <h4 class="text-2xl font-bold text-yellow-900 mb-3 tracking-wide">
+        Es Cincau Manis
+       </h4>
+       <p class="text-gray-700 mb-4 leading-relaxed">
+        Minuman cincau dingin dengan gula merah dan es batu, manis dan menyegarkan.
+       </p>
+       <p class="font-extrabold text-yellow-600 text-xl">
+        Rp10.000
+       </p>
+      </div>
+     </article>
+     <article class="bg-white rounded-3xl shadow-2xl overflow-hidden transform hover:scale-105 transition duration-300 cursor-pointer group">
+      <img alt="Segelas air putih bening dalam gelas kaca transparan di atas meja kayu rustic" class="w-full h-56 object-cover group-hover:brightness-90" height="224" loading="lazy" src="https://storage.googleapis.com/a1aa/image/8a8b5b1e-cd11-44c1-27d3-e5a2accc4668.jpg" width="400"/>
+      <div class="p-6">
+       <h4 class="text-2xl font-bold text-yellow-900 mb-3 tracking-wide">
+        Air Putih
+       </h4>
+       <p class="text-gray-700 mb-4 leading-relaxed">
+        Air mineral segar untuk menemani santapan Anda, pilihan sehat dan sederhana.
+       </p>
+       <p class="font-extrabold text-yellow-600 text-xl">
+        Rp5.000
+       </p>
+      </div>
+     </article>
+    </div>
+   </section>
+   <!-- Pembayaran -->
+   <section class="mb-20 max-w-3xl mx-auto bg-white rounded-3xl shadow-2xl p-10" id="pembayaran">
+    <h3 class="text-yellow-900 text-4xl font-extrabold mb-8 border-b-4 border-yellow-500 inline-block tracking-wide drop-shadow-md">
+     Pembayaran
+    </h3>
+    <form class="space-y-8" id="payment-form">
+     <div>
+      <label class="block text-yellow-900 font-semibold mb-3 text-lg" for="nama">
+       Nama Lengkap
+      </label>
+      <input class="w-full border border-yellow-300 rounded-xl px-5 py-3 text-lg focus:outline-none focus:ring-4 focus:ring-yellow-400 transition" id="nama" name="nama" placeholder="Masukkan nama lengkap" required="" type="text"/>
+     </div>
+     <div>
+      <label class="block text-yellow-900 font-semibold mb-3 text-lg" for="menu">
+       Pilih Menu
+      </label>
+      <select class="w-full border border-yellow-300 rounded-xl px-5 py-3 text-lg focus:outline-none focus:ring-4 focus:ring-yellow-400 transition" id="menu" name="menu" required="">
+       <optgroup label="Makanan">
+        <option value="Nasi Goreng Spesial">
+         Nasi Goreng Spesial - Rp25.000
+        </option>
+        <option value="Ayam Goreng Kremes">
+         Ayam Goreng Kremes - Rp30.000
+        </option>
+        <option value="Bakwan Jagung">
+         Bakwan Jagung - Rp15.000
+        </option>
+        <option value="Tempe Goreng Kriuk">
+         Tempe Goreng Kriuk - Rp12.000
+        </option>
+        <option value="Sayur Asem">
+         Sayur Asem - Rp18.000
+        </option>
+        <option value="Gado-Gado">
+         Gado-Gado - Rp22.000
+        </option>
+       </optgroup>
+       <optgroup label="Minuman">
+        <option value="Teh Poci Hangat">
+         Teh Poci Hangat - Rp10.000
+        </option>
+        <option value="Es Teh Manis">
+         Es Teh Manis - Rp8.000
+        </option>
+        <option value="Kopi Hitam">
+         Kopi Hitam - Rp12.000
+        </option>
+        <option value="Jus Jeruk Segar">
+         Jus Jeruk Segar - Rp15.000
+        </option>
+        <option value="Es Cincau Manis">
+         Es Cincau Manis - Rp10.000
+        </option>
+        <option value="Air Putih">
+         Air Putih - Rp5.000
+        </option>
+       </optgroup>
+      </select>
+     </div>
+     <div>
+      <label class="block text-yellow-900 font-semibold mb-3 text-lg" for="jumlah">
+       Jumlah
+      </label>
+      <input class="w-full border border-yellow-300 rounded-xl px-5 py-3 text-lg focus:outline-none focus:ring-4 focus:ring-yellow-400 transition" id="jumlah" min="1" name="jumlah" required="" type="number" value="1"/>
+     </div>
+     <div>
+      <label class="block text-yellow-900 font-semibold mb-3 text-lg" for="metode">
+       Metode Pembayaran
+      </label>
+      <select class="w-full border border-yellow-300 rounded-xl px-5 py-3 text-lg focus:outline-none focus:ring-4 focus:ring-yellow-400 transition" id="metode" name="metode" required="">
+       <option disabled="" selected="" value="">
+        Pilih metode pembayaran
+       </option>
+       <option value="Tunai">
+        Tunai
+       </option>
+       <option value="Transfer Bank">
+        Transfer Bank
+       </option>
+       <option value="E-Wallet">
+        E-Wallet
+       </option>
+      </select>
+     </div>
+     <button class="w-full bg-yellow-500 hover:bg-yellow-600 text-white font-extrabold py-4 rounded-3xl shadow-lg transition duration-300 tracking-wide text-xl" type="submit">
+      Bayar Sekarang
+     </button>
+    </form>
+    <div class="mt-8 p-6 rounded-2xl hidden text-center font-semibold text-lg" id="payment-result">
+    </div>
+   </section>
+   <!-- Komentar Pelanggan -->
+   <section class="mb-20 max-w-5xl mx-auto" id="komentar">
+    <h3 class="text-yellow-900 text-4xl font-extrabold mb-10 border-b-4 border-yellow-500 inline-block tracking-wide drop-shadow-md">
+     Komentar Pelanggan
+    </h3>
+    <form class="mb-12 bg-white p-8 rounded-3xl shadow-2xl space-y-6" id="comment-form">
+     <div>
+      <label class="block text-yellow-900 font-semibold mb-3 text-lg" for="nama-komentar">
+       Nama
+      </label>
+      <input class="w-full border border-yellow-300 rounded-xl px-5 py-3 text-lg focus:outline-none focus:ring-4 focus:ring-yellow-400 transition" id="nama-komentar" name="nama-komentar" placeholder="Masukkan nama Anda" required="" type="text"/>
+     </div>
+     <div>
+      <label class="block text-yellow-900 font-semibold mb-3 text-lg" for="isi-komentar">
+       Komentar
+      </label>
+      <textarea class="w-full border border-yellow-300 rounded-xl px-5 py-3 text-lg focus:outline-none focus:ring-4 focus:ring-yellow-400 transition resize-none" id="isi-komentar" name="isi-komentar" placeholder="Tulis komentar Anda di sini" required="" rows="5"></textarea>
+     </div>
+     <button class="bg-yellow-500 hover:bg-yellow-600 text-white font-extrabold py-4 px-10 rounded-3xl shadow-lg transition duration-300 tracking-wide text-xl" type="submit">
+      Kirim Komentar
+     </button>
+    </form>
+    <div class="space-y-10" id="comments-list">
+     <article class="bg-white p-8 rounded-3xl shadow-2xl hover:shadow-yellow-400 transition duration-300">
+      <header class="flex items-center space-x-6 mb-5">
+       <img alt="Foto profil pelanggan bernama Budi, pria dengan senyum ramah dan latar belakang warna kuning keemasan" class="w-14 h-14 rounded-full object-cover shadow-md" height="56" loading="lazy" src="https://storage.googleapis.com/a1aa/image/b18a001c-48eb-4781-c56b-2294c906ccd6.jpg" width="56"/>
+       <h4 class="font-extrabold text-yellow-900 text-2xl tracking-wide">
+        Budi
+       </h4>
+      </header>
+      <p class="text-gray-800 text-lg leading-relaxed">
+       Pelayanan sangat ramah dan makanannya enak sekali! Teh poci-nya khas dan bikin nagih. Suasana di sini juga sangat nyaman dan membuat betah.
+      </p>
+     </article>
+     <article class="bg-white p-8 rounded-3xl shadow-2xl hover:shadow-yellow-400 transition duration-300">
+      <header class="flex items-center space-x-6 mb-5">
+       <img alt="Foto profil pelanggan bernama Sari, wanita dengan rambut panjang dan latar belakang warna kuning keemasan" class="w-14 h-14 rounded-full object-cover shadow-md" height="56" loading="lazy" src="https://storage.googleapis.com/a1aa/image/a17b48b3-3d26-45e9-b08e-0815a34acf47.jpg" width="56"/>
+       <h4 class="font-extrabold text-yellow-900 text-2xl tracking-wide">
+        Sari
+       </h4>
+      </header>
+      <p class="text-gray-800 text-lg leading-relaxed">
+       Tempatnya nyaman dan suasananya asri. Menu minumannya lengkap dan segar. Saya sangat merekomendasikan teh poci hangatnya yang bikin rileks.
+      </p>
+     </article>
+     <article class="bg-white p-8 rounded-3xl shadow-2xl hover:shadow-yellow-400 transition duration-300">
+      <header class="flex items-center space-x-6 mb-5">
+       <img alt="Foto profil pelanggan bernama Andi, pria muda dengan kacamata dan latar belakang warna kuning keemasan" class="w-14 h-14 rounded-full object-cover shadow-md" height="56" loading="lazy" src="https://storage.googleapis.com/a1aa/image/b1464784-5f31-4934-3e82-3c126b3b3109.jpg" width="56"/>
+       <h4 class="font-extrabold text-yellow-900 text-2xl tracking-wide">
+        Andi
+       </h4>
+      </header>
+      <p class="text-gray-800 text-lg leading-relaxed">
+       Pembayaran mudah dan cepat. Saya suka dengan pilihan metode pembayaran yang lengkap dan prosesnya sangat praktis.
+      </p>
+     </article>
+     <article class="bg-white p-8 rounded-3xl shadow-2xl hover:shadow-yellow-400 transition duration-300">
+      <header class="flex items-center space-x-6 mb-5">
+       <img alt="Foto profil pelanggan bernama Dewi, wanita dengan senyum cerah dan latar belakang warna kuning keemasan" class="w-14 h-14 rounded-full object-cover shadow-md" height="56" loading="lazy" src="https://storage.googleapis.com/a1aa/image/21c684d8-c3ac-4c8b-2696-ac2f8c0c90f9.jpg" width="56"/>
+       <h4 class="font-extrabold text-yellow-900 text-2xl tracking-wide">
+        Dewi
+       </h4>
+      </header>
+      <p class="text-gray-800 text-lg leading-relaxed">
+       Suasana tradisionalnya sangat terasa, cocok untuk kumpul keluarga sambil menikmati teh poci dan makanan lezat.
+      </p>
+     </article>
+     <article class="bg-white p-8 rounded-3xl shadow-2xl hover:shadow-yellow-400 transition duration-300">
+      <header class="flex items-center space-x-6 mb-5">
+       <img alt="Foto profil pelanggan bernama Rian, pria dengan rambut pendek dan latar belakang warna kuning keemasan" class="w-14 h-14 rounded-full object-cover shadow-md" height="56" loading="lazy" src="https://storage.googleapis.com/a1aa/image/27da3c7d-c996-4c33-c096-8401c88c9e3c.jpg" width="56"/>
+       <h4 class="font-extrabold text-yellow-900 text-2xl tracking-wide">
+        Rian
+       </h4>
+      </header>
+      <p class="text-gray-800 text-lg leading-relaxed">
+       Makanan dan minuman enak, harga terjangkau, dan pelayanan cepat. Recommended untuk semua kalangan!
+      </p>
+     </article>
+    </div>
+   </section>
+  </main>
+  <!-- Footer -->
+  <footer class="bg-yellow-600 text-yellow-200 py-8 text-center font-semibold tracking-wide select-none drop-shadow-lg">
+   © 2024 Kanting Raden Mas Dimas. Semua hak cipta dilindungi.
+  </footer>
+  <script>
+   // Mobile menu toggle
+    const btnMenu = document.getElementById('btn-menu');
+    const mobileMenu = document.getElementById('mobile-menu');
+    btnMenu.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+
+    // Pembayaran form submit handler
+    const paymentForm = document.getElementById('payment-form');
+    const paymentResult = document.getElementById('payment-result');
+
+    paymentForm.addEventListener('submit', (e) => {
+      e.preventDefault();
+
+      const nama = paymentForm.nama.value.trim();
+      const menu = paymentForm.menu.value;
+      const jumlah = parseInt(paymentForm.jumlah.value);
+      const metode = paymentForm.metode.value;
+
+      if (!nama || !menu || !jumlah || !metode) {
+        paymentResult.textContent = 'Mohon lengkapi semua data pembayaran.';
+        paymentResult.classList.remove('hidden', 'bg-green-100', 'text-green-800');
+        paymentResult.classList.add('bg-red-100', 'text-red-800');
+        return;
+      }
+
+      // Harga menu berdasarkan pilihan
+      const hargaMenu = {
+        'Nasi Goreng Spesial': 25000,
+        'Ayam Goreng Kremes': 30000,
+        'Bakwan Jagung': 15000,
+        'Tempe Goreng Kriuk': 12000,
+        'Sayur Asem': 18000,
+        'Gado-Gado': 22000,
+        'Teh Poci Hangat': 10000,
+        'Es Teh Manis': 8000,
+        'Kopi Hitam': 12000,
+        'Jus Jeruk Segar': 15000,
+        'Es Cincau Manis': 10000,
+        'Air Putih': 5000,
+      };
+
+      const totalBayar = hargaMenu[menu] * jumlah;
+
+      paymentResult.textContent = `Terima kasih, ${nama}! Pesanan Anda: ${menu} x${jumlah}. Total pembayaran: Rp${totalBayar.toLocaleString('id-ID')}. Metode pembayaran: ${metode}.`;
+      paymentResult.classList.remove('hidden', 'bg-red-100', 'text-red-800');
+      paymentResult.classList.add('bg-green-100', 'text-green-800');
+
+      paymentForm.reset();
+    });
+
+    // Komentar form submit handler
+    const commentForm = document.getElementById('comment-form');
+    const commentsList = document.getElementById('comments-list');
+
+    commentForm.addEventListener('submit', (e) => {
+      e.preventDefault();
+
+      const namaKomentar = commentForm['nama-komentar'].value.trim();
+      const isiKomentar = commentForm['isi-komentar'].value.trim();
+
+      if (!namaKomentar || !isiKomentar) {
+        alert('Mohon isi nama dan komentar Anda.');
+        return;
+      }
+
+      // Buat elemen komentar baru
+      const commentArticle = document.createElement('article');
+      commentArticle.className = 'bg-white p-8 rounded-3xl shadow-2xl hover:shadow-yellow-400 transition duration-300';
+
+      const header = document.createElement('header');
+      header.className = 'flex items-center space-x-6 mb-5';
+
+      const img = document.createElement('img');
+      img.src = `https://placehold.co/56x56/png?text=${encodeURIComponent(namaKomentar.charAt(0).toUpperCase())}&font=roboto&bg=FBBF24&fg=7C3AED`;
+      img.alt = `Foto profil pelanggan bernama ${namaKomentar}, dengan latar belakang warna kuning keemasan`;
+      img.className = 'w-14 h-14 rounded-full object-cover shadow-md';
+      img.loading = 'lazy';
+
+      const h4 = document.createElement('h4');
+      h4.className = 'font-extrabold text-yellow-900 text-2xl tracking-wide';
+      h4.textContent = namaKomentar;
+
+      header.appendChild(img);
+      header.appendChild(h4);
+
+      const p = document.createElement('p');
+      p.className = 'text-gray-800 text-lg leading-relaxed';
+      p.textContent = isiKomentar;
+
+      commentArticle.appendChild(header);
+      commentArticle.appendChild(p);
+
+      // Tambahkan komentar baru di atas komentar yang lain
+      commentsList.insertBefore(commentArticle, commentsList.firstChild);
+
+      commentForm.reset();
+    });
+  </script>
+ </body>
+</html>
